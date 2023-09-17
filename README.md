@@ -14,7 +14,7 @@ The source code of this documentation can be found in the `docs/` folder in this
 1. Checkout a specific tag of Combine 
 
 ```bash
-git clone https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
+git clone git@github.com:nurfikri89/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
 cd HiggsAnalysis/CombinedLimit
 git fetch origin
 git checkout v9.1.0-MacOS13p5_miniconda-dev
