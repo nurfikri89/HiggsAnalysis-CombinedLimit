@@ -1,4 +1,4 @@
-. /cvmfs/sft.cern.ch/lcg/views/LCG_104a/x86_64-centos7-gcc11-opt/setup.sh
+. /cvmfs/sft.cern.ch/lcg/views/LCG_104c/x86_64-centos7-gcc11-opt/setup.sh
 
 if [[ !  ${PATH} =~ ${PWD}/build/bin ]]; then
   echo "Appending ${PWD}/build/bin to PATH"
