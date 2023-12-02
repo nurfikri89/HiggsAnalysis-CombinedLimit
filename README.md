@@ -8,7 +8,7 @@ http://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/
 
 The source code of this documentation can be found in the `docs/` folder in this repository.
 
-### Setup on MacOS (13.5) with conda
+### Setup on MacOS (14.1) with conda
 
 
 1. Checkout a specific tag of Combine 
@@ -17,7 +17,7 @@ The source code of this documentation can be found in the `docs/` folder in this
 git clone git@github.com:nurfikri89/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
 cd HiggsAnalysis/CombinedLimit
 git fetch origin
-git checkout v9.1.0-MacOS13p5_miniconda-dev
+git checkout v9.1.0-MacOS14p1_miniconda-dev
 ```
 
 2. Compile with conda (https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/#standalone-compilation-with-conda)
