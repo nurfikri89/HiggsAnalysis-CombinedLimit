@@ -5,7 +5,7 @@ dependencies:
   - python==3.10
   - pip
   - pandas
-  - root==6.26.8
+  - root==6.28.10
   - gsl
   - tbb
   - vdt
