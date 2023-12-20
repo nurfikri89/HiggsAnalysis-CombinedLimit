@@ -1,4 +1,8 @@
-. /cvmfs/sft.cern.ch/lcg/views/LCG_102a/x86_64-centos7-gcc11-opt/setup.sh
+echo "Setup LCG_102a stack builtfor x86_64-centos9-gcc11-opt which has gcc11 and ROOT 6.26.08"
+. /cvmfs/sft.cern.ch/lcg/views/LCG_102a/x86_64-centos9-gcc11-opt/setup.sh
+
+#echo "Setup LCG_102a stack builtfor x86_64-centos7-gcc11-opt which has gcc11 and ROOT 6.26.08"
+#. /cvmfs/sft.cern.ch/lcg/views/LCG_102a/x86_64-centos7-gcc11-opt/setup.sh
 
 if [[ !  ${PATH} =~ ${PWD}/build/bin ]]; then
   echo "Appending ${PWD}/build/bin to PATH"
